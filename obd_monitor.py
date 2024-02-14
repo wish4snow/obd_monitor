@@ -21,12 +21,17 @@ for i in range(1, 0x20) :
 
 while (user_state) :
 	try:
+		
+		
+		for i in value_adderess:
+			print_output += str(i) + "\n" + str(connection.query(i).value) + "\n"
+			#print (i)
+			#print (connection.query(i).value)
+		
 		subprocess.call('clear')
 		print ("values:")
-		for i in value_adderess:
-			print_output += i + "\n" + connection.query(i).value + "\n"
-			print (i)
-			print (connection.query(i).value)
+		print (print_output)
+		print_output = ""
 		time.sleep(1)
 	except KeyboardInterrupt:
 		user_state = False
