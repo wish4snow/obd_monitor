@@ -7,7 +7,7 @@ connection = obd.OBD("192.168.0.10", 35000)
 user_state = True
 value_adderess = []
 user_wanted_pids = [0x04, 0x05, 0x0B, 0x0C, 0x11] #range from 0x01 to 0x20 in hex
-
+print_output = ""
 file.write("New session")
 print ("New session")
 
@@ -18,15 +18,13 @@ for i in range(1, 0x20) :
 	print (i)
 	if ((connection.query(supported_pids_mode1).value[i] == 1) & (i in user_wanted_pids)):
 		value_adderess.append(obd.commands[1][i])
-		print ("value added")
-		#print (connection.query(value_adderess).value)
 
 while (user_state) :
 	try:
 		subprocess.call('clear')
 		print ("values:")
 		for i in value_adderess:
-			#print (value_adderess[i])
+			print_output += i + "\n" + connection.query(i).value + "\n"
 			print (i)
 			print (connection.query(i).value)
 		time.sleep(1)
