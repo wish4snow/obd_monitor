@@ -15,18 +15,21 @@ supported_pids_mode1 = obd.commands.PIDS_A
 print (connection.query(supported_pids_mode1).value)
 
 for i in range(1, 0x20) :
-	if ((connection.query(supported_pids_mode1).value[i] == 1) & (connection.query(supported_pids_mode1).value[i] in user_wanted_pids)):
+	print (i)
+	if ((connection.query(supported_pids_mode1).value[i] == 1) & (i in user_wanted_pids)):
 		value_adderess.append(obd.commands[1][i])
-		print (connection.query(value_adderess).value)
+		print ("value added")
+		#print (connection.query(value_adderess).value)
 
 while (user_state) :
 	try:
 		subprocess.call('clear')
 		print ("values:")
 		for i in value_adderess:
-			print (value_adderess[i])
-			print (connection.query(value_adderess[i]).value)
-		time.sleep(10)
+			#print (value_adderess[i])
+			print (i)
+			print (connection.query(i).value)
+		time.sleep(1)
 	except KeyboardInterrupt:
 		user_state = False
 
