@@ -1,0 +1,119 @@
+0,b'0104': Calculated Engine Load,34.509803921568626,percent
+0,b'0105': Engine Coolant Temperature,54,degC
+0,b'0106': Short Term Fuel Trim - Bank 1,-10.15625,percent
+0,b'010B': Intake Manifold Pressure,33,kilopascal
+0,b'010C': Engine RPM,805.0,revolutions_per_minute
+0,b'0111': Throttle Position,16.07843137254902,percent
+0,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+1,b'0104': Calculated Engine Load,34.509803921568626,percent
+1,b'0105': Engine Coolant Temperature,54,degC
+1,b'0106': Short Term Fuel Trim - Bank 1,-10.15625,percent
+1,b'010B': Intake Manifold Pressure,33,kilopascal
+1,b'010C': Engine RPM,816.0,revolutions_per_minute
+1,b'0111': Throttle Position,16.07843137254902,percent
+1,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+2,b'0104': Calculated Engine Load,34.11764705882353,percent
+2,b'0105': Engine Coolant Temperature,55,degC
+2,b'0106': Short Term Fuel Trim - Bank 1,-10.9375,percent
+2,b'010B': Intake Manifold Pressure,21,kilopascal
+2,b'010C': Engine RPM,1371.0,revolutions_per_minute
+2,b'0111': Throttle Position,16.07843137254902,percent
+2,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+3,b'0104': Calculated Engine Load,30.19607843137255,percent
+3,b'0105': Engine Coolant Temperature,55,degC
+3,b'0106': Short Term Fuel Trim - Bank 1,-14.0625,percent
+3,b'010B': Intake Manifold Pressure,31,kilopascal
+3,b'010C': Engine RPM,813.0,revolutions_per_minute
+3,b'0111': Throttle Position,15.686274509803921,percent
+3,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+4,b'0104': Calculated Engine Load,33.333333333333336,percent
+4,b'0105': Engine Coolant Temperature,56,degC
+4,b'0106': Short Term Fuel Trim - Bank 1,-14.84375,percent
+4,b'010B': Intake Manifold Pressure,32,kilopascal
+4,b'010C': Engine RPM,808.0,revolutions_per_minute
+4,b'0111': Throttle Position,15.686274509803921,percent
+4,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+5,b'0104': Calculated Engine Load,32.94117647058823,percent
+5,b'0105': Engine Coolant Temperature,56,degC
+5,b'0106': Short Term Fuel Trim - Bank 1,-12.5,percent
+5,b'010B': Intake Manifold Pressure,31,kilopascal
+5,b'010C': Engine RPM,805.0,revolutions_per_minute
+5,b'0111': Throttle Position,15.686274509803921,percent
+5,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+6,b'0104': Calculated Engine Load,100.0,percent
+6,b'0105': Engine Coolant Temperature,56,degC
+6,b'0106': Short Term Fuel Trim - Bank 1,0.0,percent
+6,b'010B': Intake Manifold Pressure,61,kilopascal
+6,b'010C': Engine RPM,3373.0,revolutions_per_minute
+6,b'0111': Throttle Position,22.352941176470587,percent
+6,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+7,b'0104': Calculated Engine Load,25.88235294117647,percent
+7,b'0105': Engine Coolant Temperature,56,degC
+7,b'0106': Short Term Fuel Trim - Bank 1,0.0,percent
+7,b'010B': Intake Manifold Pressure,21,kilopascal
+7,b'010C': Engine RPM,2283.0,revolutions_per_minute
+7,b'0111': Throttle Position,17.647058823529413,percent
+7,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+8,b'0104': Calculated Engine Load,25.098039215686274,percent
+8,b'0105': Engine Coolant Temperature,57,degC
+8,b'0106': Short Term Fuel Trim - Bank 1,-5.46875,percent
+8,b'010B': Intake Manifold Pressure,24,kilopascal
+8,b'010C': Engine RPM,1474.0,revolutions_per_minute
+8,b'0111': Throttle Position,16.862745098039216,percent
+8,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+9,b'0104': Calculated Engine Load,29.80392156862745,percent
+9,b'0105': Engine Coolant Temperature,57,degC
+9,b'0106': Short Term Fuel Trim - Bank 1,-7.8125,percent
+9,b'010B': Intake Manifold Pressure,28,kilopascal
+9,b'010C': Engine RPM,1030.0,revolutions_per_minute
+9,b'0111': Throttle Position,16.07843137254902,percent
+9,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+10,b'0104': Calculated Engine Load,30.980392156862745,percent
+10,b'0105': Engine Coolant Temperature,57,degC
+10,b'0106': Short Term Fuel Trim - Bank 1,-10.15625,percent
+10,b'010B': Intake Manifold Pressure,30,kilopascal
+10,b'010C': Engine RPM,791.0,revolutions_per_minute
+10,b'0111': Throttle Position,17.254901960784313,percent
+10,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+11,b'0104': Calculated Engine Load,36.470588235294116,percent
+11,b'0105': Engine Coolant Temperature,57,degC
+11,b'0106': Short Term Fuel Trim - Bank 1,-7.8125,percent
+11,b'010B': Intake Manifold Pressure,42,kilopascal
+11,b'010C': Engine RPM,1419.0,revolutions_per_minute
+11,b'0111': Throttle Position,19.607843137254903,percent
+11,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+12,b'0104': Calculated Engine Load,41.1764705882353,percent
+12,b'0105': Engine Coolant Temperature,57,degC
+12,b'0106': Short Term Fuel Trim - Bank 1,-4.6875,percent
+12,b'010B': Intake Manifold Pressure,42,kilopascal
+12,b'010C': Engine RPM,2547.0,revolutions_per_minute
+12,b'0111': Throttle Position,22.745098039215687,percent
+12,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+13,b'0104': Calculated Engine Load,52.549019607843135,percent
+13,b'0105': Engine Coolant Temperature,57,degC
+13,b'0106': Short Term Fuel Trim - Bank 1,-14.84375,percent
+13,b'010B': Intake Manifold Pressure,23,kilopascal
+13,b'010C': Engine RPM,3250.0,revolutions_per_minute
+13,b'0111': Throttle Position,18.823529411764707,percent
+13,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+14,b'0104': Calculated Engine Load,20.392156862745097,percent
+14,b'0105': Engine Coolant Temperature,58,degC
+14,b'0106': Short Term Fuel Trim - Bank 1,-15.625,percent
+14,b'010B': Intake Manifold Pressure,20,kilopascal
+14,b'010C': Engine RPM,1924.0,revolutions_per_minute
+14,b'0111': Throttle Position,17.254901960784313,percent
+14,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+15,b'0104': Calculated Engine Load,25.88235294117647,percent
+15,b'0105': Engine Coolant Temperature,58,degC
+15,b'0106': Short Term Fuel Trim - Bank 1,-15.625,percent
+15,b'010B': Intake Manifold Pressure,24,kilopascal
+15,b'010C': Engine RPM,1275.0,revolutions_per_minute
+15,b'0111': Throttle Position,16.07843137254902,percent
+15,b'0121': Distance Traveled with MIL on,1916.0,kilometer
+16,b'0104': Calculated Engine Load,29.41176470588235,percent
+16,b'0105': Engine Coolant Temperature,58,degC
+16,b'0106': Short Term Fuel Trim - Bank 1,-15.625,percent
+16,b'010B': Intake Manifold Pressure,28,kilopascal
+16,b'010C': Engine RPM,863.0,revolutions_per_minute
+16,b'0111': Throttle Position,15.686274509803921,percent
+16,b'0121': Distance Traveled with MIL on,1916.0,kilometer

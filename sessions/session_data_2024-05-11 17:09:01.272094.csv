@@ -1,0 +1,14 @@
+0,b'0104': Calculated Engine Load,0.0,percent
+0,b'0105': Engine Coolant Temperature,41,degC
+0,b'0106': Short Term Fuel Trim - Bank 1,0.0,percent
+0,b'010B': Intake Manifold Pressure,98,kilopascal
+0,b'010C': Engine RPM,0.0,revolutions_per_minute
+0,b'0111': Throttle Position,19.215686274509803,percent
+0,b'0121': Distance Traveled with MIL on,0.0,kilometer
+1,b'0104': Calculated Engine Load,0.0,percent
+1,b'0105': Engine Coolant Temperature,41,degC
+1,b'0106': Short Term Fuel Trim - Bank 1,0.0,percent
+1,b'010B': Intake Manifold Pressure,98,kilopascal
+1,b'010C': Engine RPM,0.0,revolutions_per_minute
+1,b'0111': Throttle Position,19.215686274509803,percent
+1,b'0121': Distance Traveled with MIL on,0.0,kilometer
