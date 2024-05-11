@@ -3,9 +3,12 @@ import time
 import subprocess, os
 import datetime
 
-os.chdir("sessions")
+os.chdir("sessions/")
 
 print ("Starting monitor...")
+
+#use this for later, not working for some reason right now, whatever
+#formated_date = datetime.datetime.now().strftime("%x_%X")
 
 file = open("session_data_" + str(datetime.datetime.now()) + ".csv", "w+")
 connection = obd.OBD("192.168.0.10", 35000)
