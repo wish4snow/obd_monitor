@@ -1,16 +1,20 @@
 import obd
 import time
 import subprocess, os
+import datetime
+
+os.chdir("sessions")
 
 print ("Starting monitor...")
 
-file = open("obd_car_data.txt", "w+")
+file = open("session_data_" + str(datetime.datetime.now()) + ".csv", "w+")
 connection = obd.OBD("192.168.0.10", 35000)
 user_state = True
 value_adderess = []
 user_wanted_pids = [0x02, 0x04, 0x05, 0x0B, 0x0C, 0x11, 0x21, 0x06] #range from 0x01 to 0x20 in hex
 print_output = ""
-file.write("New session")
+csv_output = ""
+
 print ("New session")
 
 supported_pids_mode1 = obd.commands.PIDS_A
@@ -58,20 +62,28 @@ for i in range(0x01,len(full_pid_bitarray) - 1) :
 	print ("\n")
 print("done")
 
+count = 0
+
 while (user_state) :
 	try:
 		
-		
 		for i in value_adderess:
 			print_output += str(i) + "\n" + str(connection.query(i).value) + "\n"
+			csv_output += str(count) + "," + str(i) + "," + str(connection.query(i).value.magnitude) + "," + str(connection.query(i).value.units) + "\n"
 			#print (i)
 			#print (connection.query(i).value)
 		
 		subprocess.call('clear')
 		print ("values:")
 		print (print_output)
+
+		file.write(csv_output)
+
+		csv_output = ""
 		print_output = ""
+		count += 1
 		time.sleep(0.1)
+
 	except KeyboardInterrupt:
 		user_state = False
 		print ("Are you still testing?")
