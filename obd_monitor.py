@@ -2,8 +2,9 @@ import obd
 import time
 import subprocess, os
 import datetime
+import plotter
 
-os.chdir("sessions/")
+os.chdir("sessions")
 
 print ("Starting monitor...")
 
@@ -13,8 +14,8 @@ print ("Starting monitor...")
 
 #use this for later, not working for some reason right now, whatever
 #formated_date = datetime.datetime.now().strftime("%x_%X")
-
-file = open("session_data_" + str(datetime.datetime.now()) + ".csv", "w+")
+formated_file_name = "session_data_" + str(datetime.datetime.now()) + ".csv"
+file = open(formated_file_name, "w+")
 connection = obd.OBD("192.168.0.10", 35000)
 user_state = True
 value_adderess = []
@@ -93,12 +94,25 @@ while (user_state) :
 
 	except KeyboardInterrupt:
 		user_state = False
-		print ("Are you still testing?")
+
+file.close()
+
+print("\nWould you like to see a graph of one of your PIDs?")
+
+if input(":") == "yes":
+	print("which PID index (entered in user_wanted_pids) would you like to graph?")
+	pid_index = input(":")
+	print("")
+
+	plotter.plotter(formated_file_name, int(pid_index))
+
+print ("Are you still testing?")
 		
-		if (input(":") == "no"):
-			print ("\nConnection closed")
-			connection.close()
-			file.close()
+if (input(":") == "no"):
+	print ("\nConnection closed")
+	connection.close()
+
+
 
 
 
