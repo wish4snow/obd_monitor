@@ -7,6 +7,10 @@ os.chdir("sessions/")
 
 print ("Starting monitor...")
 
+#I hate this code, but it work so far so.......
+#I'll refactor later
+#future me's problem lol
+
 #use this for later, not working for some reason right now, whatever
 #formated_date = datetime.datetime.now().strftime("%x_%X")
 
